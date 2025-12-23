@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dou6be3e0tib2"]
+
+[ext_resource type="PackedScene" uid="uid://dhqskjckwxx2u" path="res://henk_2d.tscn" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="henk2D" parent="." instance=ExtResource("1_wtcfe")]

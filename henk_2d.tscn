@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dhqskjckwxx2u"]
+
+[ext_resource type="Script" uid="uid://c65j5qdq0dto" path="res://henk_2d.gd" id="1_2ki4b"]
+[ext_resource type="Texture2D" uid="uid://y1rp0sbclb2l" path="res://godot project character - Copy.png" id="2_thgof"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0hol4"]
+size = Vector2(55, 145)
+
+[node name="henk2D" type="CharacterBody2D"]
+script = ExtResource("1_2ki4b")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(401, 323)
+scale = Vector2(5.67647, 5.18966)
+texture = ExtResource("2_thgof")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(398.5, 323.5)
+shape = SubResource("RectangleShape2D_0hol4")
