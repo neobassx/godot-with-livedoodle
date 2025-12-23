@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cp306jmoamyp4"
+path="res://.godot/imported/old grandpa.mp3-709db8330a2ed97c1e9d55c2ace10d69.mp3str"
+
+[deps]
+
+source_file="res://sounds/old grandpa.mp3"
+dest_files=["res://.godot/imported/old grandpa.mp3-709db8330a2ed97c1e9d55c2ace10d69.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
